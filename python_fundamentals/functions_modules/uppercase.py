@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 
-
-def uppercase(n_str):
-    res = ""
-    for c in n_str:
-        if 97 <= ord(c) <= 122:
-            res += chr(ord(c) - 32)
-        else:
-            res += c
-    print(res)
+def uppercase(str):
+    for char in str:
+        code = ord(char)
+        if code >= 97 and code <= 122:
+            code = code - 32
+        print(chr(code), end="")
+    print()
