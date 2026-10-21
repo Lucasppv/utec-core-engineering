@@ -1,4 +1,4 @@
-#!/usr/init/env python3
+#!/usr/bin/env python3
 """
 Módulo que contiene una función para escribir texto en un archivo.
 """
